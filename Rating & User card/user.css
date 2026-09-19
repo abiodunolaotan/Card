@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1{
+  font-size: 64px;
+}
+
+h2{
+  font-size: 48px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+h4{
+  font-size: 28px;
+  color: #BBBBBB;
+}
+
+h5{
+  font-size: 24px;
+}
+
+
+p{
+  font-size: 18px;
+  color: #828282;
+  letter-spacing: .2px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+  color: #B0B0B0;
+  font-size: 16px;
+  
+}
+
+.user__card--conainer{
+  max-width: fit-content;
+  min-height: 400px;
+  background-color: #1F1F1F;
+  padding: 40px 40px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 12px;
+}
+
+
+.user__text p{
+  color: #a6cd31;
+  margin: 0 0 30px;
+}
+
+.user__text h4{
+  margin-bottom: 10px;
+}
+
+.nav__link{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav__link a{
+ font-weight: 900;
+  padding: 10px 150px;
+  background-color: #333333;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  margin-inline: auto;
+  border-radius: 50%; 
+}
+
+.nav__info p{
+  margin: 0 0 25px;
+}
+
+a:hover{
+  background-color: #c0da74;
+  color: #141414;
+  transition: .3s;
+}
+
+.rating__btn{
+  padding: 20px;
+  color: #141414;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 12px;
+  background-color: #b0a8a8;
+  display: inline-block;
+  justify-content: center;
+  align-items: end;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+
+.rating__btn:hover{
+  background-color: #c0da74;
+  color: #141414;
+  transition: .3s;
+}
