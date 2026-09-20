@@ -69,7 +69,7 @@ a{
 }
 
 
-.user__content--container{
+.rating__content--container{
   background-color: #1F2630;
   max-width: 450px;
   max-height: 800px;
@@ -80,9 +80,9 @@ a{
 }
 
 
-.user__star{
-  width: 40px;
-  height: 40px;
+.rating__star{
+  width: 50px;
+  height: 50px;
   background-color: #2B2E2F;
   display: flex;
   align-items: center;
@@ -90,17 +90,17 @@ a{
    border-radius: 50% ;
 }
 
-.user__text{
+.rating__text{
   margin: 40px 0 25px;
   
 }
 
-.user__text h3{
+.rating__text h3{
   margin-bottom: 20px;
 }
 
 
-.user__ratings{
+.ratings{
   display: flex;
   justify-content: space-between;
   
@@ -133,7 +133,7 @@ a{
   cursor: pointer;
 }
 
-.user__btn{
+.rating__btn{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,3 +159,8 @@ a:hover{
   background-color:#c9783f ;
   transition: .3s;
 }
+
+.rating__star:hover{
+  background-color: #000;
+}
+
